@@ -4,7 +4,7 @@ import (
     "net/http"
     
     "github.com/gorilla/mux"
-    "github.com/yourusername/calculator/internal/auth"
+    "github.com/opr1234/calculator/internal/auth"
 )
 
 func NewRouter(h *Handler, authMiddleware mux.MiddlewareFunc) *mux.Router {
