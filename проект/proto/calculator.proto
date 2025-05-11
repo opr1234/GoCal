@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package calculator;
+
+option go_package = "github.com/yourusername/calculator/proto";
+
+service Calculator {
+    rpc Evaluate (ExpressionRequest) returns (ExpressionResponse) {}
+    
+    rpc Ping (Empty) returns (Pong) {}
+}
+
+message ExpressionRequest {
+    string expression = 1;  
+    int32 user_id = 2;      
+}
+
+message ExpressionResponse {
+    double result = 1;  
+    string error = 2;   
+}
+
+message Empty {}
+
+message Pong {
+    string status = 1;  
+}
