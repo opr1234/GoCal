@@ -13,7 +13,7 @@
 # Клонирование репозитория
 
 ```bash
-git clone https://github.com/yourusername/calculator.git
+git clone https://github.com/opr1234/calculator.git
 cd calculator
 ```
 
