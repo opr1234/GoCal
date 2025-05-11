@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/yourusername/calculator/internal/calculator"
-	pb "github.com/yourusername/calculator/proto"
+	"github.com/opr1234/calculator/proto"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )
