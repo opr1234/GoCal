@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/yourusername/calculator/internal/auth"
-	"github.com/yourusername/calculator/internal/storage"
-	pb "github.com/yourusername/calculator/proto"
+	"github.com/opr1234/calculator/internal/auth"
+	"github.com/opr1234/calculator/internal/storage"
+	pb "github.com/opr1234/calculator/proto"
 )
 
 type Handler struct {
