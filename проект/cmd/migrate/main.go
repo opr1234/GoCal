@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/yourusername/calculator/internal/storage"
+	"github.com/opr1234/calculator/internal/storage"
 )
 
 func main() {
