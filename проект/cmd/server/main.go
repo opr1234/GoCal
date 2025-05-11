@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/yourusername/calculator/internal/auth"
-	"github.com/yourusername/calculator/internal/storage"
-	grpcClient "github.com/yourusername/calculator/internal/transport/grpc/client"
-	httpTransport "github.com/yourusername/calculator/internal/transport/http"
+	"github.com/opr1234/calculator/internal/auth"
+	"github.com/opr1234/calculator/internal/storage"
+	"github.com/opr1234/calculator/internal/transport/grpc/client"
+	"github.com/opr1234/calculator/internal/transport/http"
 )
 
 func main() {
